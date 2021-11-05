@@ -1,0 +1,133 @@
+*{
+	margin: 0px;
+}
+body{
+	background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.15)), url(../image/matireil.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 70vh;
+}
+
+.bonde{
+	position: relative;
+	left :3px;
+	top: 5px;
+	width: 99%;
+	height: 50px;
+	border-radius: 15px;
+	background-color: #009999;
+	box-shadow: 3px 5px #00ccff;
+}
+.welcome{
+	display: inline-block;
+	margin: 0px;
+	padding: 5px 3px;
+	height: 45px;
+	width: 13%;
+	cursor: pointer;
+	border-radius: 15px ;
+
+}
+.welcome:hover{
+	background:  #00ccff;
+	transition:0.5s;
+}
+.image{
+	left:10px;
+	width: 40px;
+	position: relative;
+}
+
+.phrase{
+	text-decoration: none;
+    color: black;	
+	display: inline-block;
+	top : -15px;
+	left:5px;
+	font-size: 25px;
+	position: relative;
+}
+.image2{
+   top: 8px;
+	width: 20px;
+	position: relative;
+}
+
+.phrase2{
+	text-decoration: none;
+    color: black;	
+	display: inline-block;
+	top : 3px;
+	font-size: 25px;
+	position: relative;
+}
+
+.setting{
+	display: inline-block;
+	float: right;
+	margin: 0px;
+	padding: 5px 3px;
+	height: 45px;
+	border-radius: 15px ;
+	width: 7%;
+	cursor: pointer;
+}
+.setting:hover{
+	background:  #00ccff;
+	transition:0.5s;
+}
+
+.deconnexion{
+background-color: #009999;
+	bottom: -500px;
+	left: 10px;
+	position: relative;
+	display: inline-block;
+	padding: 8px 3px;
+	border-radius: 15px ; 
+	height: 40px;
+	width: 10%;
+	cursor: pointer;
+	box-shadow: 2px 3px #00ccff;
+}
+.deconnexion:hover{
+	background:  #00ccff;
+	transition:0.5s;
+}
+.phrase3{
+    text-decoration: none;
+    color: black;	
+	font-size: 18px;
+	display: inline-block;
+	left: 4px;
+	top : 2px;
+	position: relative;}
+
+.image3{
+	top: 8px;
+	right: -10px;
+	width: 20px;
+	position: relative;
+}
+.choose{
+	width: 40%;
+	height: 100px;
+	margin: 150px auto;
+}
+button {
+	font-family: roboto;
+	cursor : pointer;
+	font-size: 25px;
+    border: 0px;
+    padding: 0px;
+    border-radius: 20px ; 
+    background:  #009999;
+	margin: 24px 2%;
+	width: 45%;
+	height : 50%;
+	box-shadow: 2px 3px #00ccff;
+}
+button:hover{
+	background:  #00ccff;
+	transition:0.5s;
+}

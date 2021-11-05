@@ -1,0 +1,176 @@
+body{
+	background-image: url(../image/matireil.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 70vh;
+}
+.space{
+	width: 700px;
+	height: 700px;
+	margin: 20px auto;
+	background:rgba(0, 0, 0, 0.3);
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+}
+.util-admin{
+	width: 125px;
+	height: 45px;
+	margin: 20px auto ;
+	border : 0px;
+    position: relative;
+	
+	border-radius: 20px;
+	background-color: #009999;
+	box-shadow: 3px 5px #00ccff;
+}
+.name{
+	width: 100%;
+	display: inline-block;
+	margin: 5px 0px;
+}
+.reglage{
+	width: 120px;
+	height: 45px;
+	background: transparent;
+	border: 0px;
+	border-radius: 20px;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+}
+#btn{
+    width: 125px;
+    height: 45px;
+	background:linear-gradient(to bottom , rgba(0,0,0,0.5),rgb(0,0, 0,0.5)) ;
+	border: 0px;
+	border-radius: 20px;
+	outline: none;
+	cursor: pointer;
+	position: absolute;
+}
+
+.information{
+	width:90%;
+	height : 500px;
+	position: absolute;
+	transition: 0.5s
+}
+input {
+	border : 1.5px solid #d5d2d2;
+	border-radius: 15px;
+	height: 35px;
+	width: 45%;
+	margin: 5px;
+	padding: 2px 5px;
+	font-size: 15px;
+	outline: none; 
+}
+input:focus {
+	border : 1.5px solid #0099ff;
+}
+#pass{
+	width: 40%;
+}
+#conf{
+	width: 40%;
+}
+.line1 {
+	color:#00ccff; 
+	font-size: 15px;
+	margin:0px 5px; 
+	cursor: pointer;
+}
+.line2{
+	font-size: 17px;
+	margin:5px 5px  0px 5px;
+	color: #1144ed ; 
+	cursor: pointer;
+}
+.line3{
+	font-size: 15px;
+	margin: 5px; 
+	color : #00ccff; 
+	cursor: pointer;
+}
+select:focus{
+	border : 1.5px solid #0099ff;
+}
+
+.stng1{
+	border : 1px solid #d5d2d2;
+	border-radius : 7px;
+	height: 35px;
+	width: 20%;
+	padding: 2px;
+	font-size: 15px;
+	outline: none; 
+   
+}
+.stng{
+	border : 1px solid #d5d2d2;
+	border-radius : 7px;
+	height: 35px;
+	width: 45%;
+	padding: 2px;
+	font-size: 15px;
+	outline: none; 
+    
+}
+.submit{
+	width:100px;
+    height: 40px;
+	background-color: #009999;
+	box-shadow: 3px 5px #00ccff;
+	margin: 40px auto;
+	padding: 3px 5px;
+	border: 0px;
+	border-radius: 15px;
+	outline: none;
+	cursor: pointer;
+    display: block;
+}
+a {
+	display: block;
+	text-decoration: none;
+	position: relative;
+	font-family: roboto;
+
+}
+
+#eye{
+	position: relative;
+	width: 55px;
+	height: 55px;
+	top: 23px;
+	left: -15px;
+	cursor: pointer;
+
+}
+.optn1{
+	
+	font-size: 15px;
+}
+#phone{
+	text-transform: 
+}
+#util{
+	left: 50px
+}
+
+#admin{
+	left: 750px;
+}
+.email{
+	width: 94.5%;
+}
+.submit:hover{
+	background:  #00ccff;
+	transition:0.5s;
+	width: 30%;
+}
+.reglage:hover{
+	background:  #00ccff;
+	transition:0.5s;
+	width: 100%;
+}

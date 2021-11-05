@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="../css/page 1.css">
+<head>
+	<title></title>
+</head>
+<body>
+<div class="space">
+		<div class="util-admin">
+			<div id="btn"></div>
+			<button type="button" class="reglage" onclick="util()">utilisateur</button>
+			<button type="button" class="reglage" onclick="admin()">administrateur</button>
+		</div>
+
+		<form id="util" class="information">
+			<input type="text" placeholder="email" class="stng">
+			<input type="password" placeholder="password" class="stng" id="pass">
+				<img src="../image/eye1.png" id="eye" onclick="show()">
+			<button type="submit" class="submit"> login </button>
+		</form>
+		<form id="admin" class="information" method="post" action="page1.php">
+			<input type="email" placeholder="email" class="stng">
+			<input type="password" placeholder="password" class="stng" id="pass">
+				<img src="../image/eye1.png" id="eye" onclick="show()">
+			<input type="submit" class="submit" value="login" > 
+		</form>
+	</div>
+
+
+<script type="text/javascript" src="../js/page 1.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+body{
+	background : linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)) , url(../image/matireil.jpg);
+	background-size: cover;
+	background-position : center;
+	height : 70vh;
+}
+
+.bonde{
+	margin-bottom: 15px;
+	position: relative;
+	left :3px;
+	top: 5px;
+	width: 99%;
+	height: 50px;
+	border-radius: 15px;
+	background-color: #009999;
+	box-shadow: 3px 5px #00ccff;
+}
+.welcome{
+	display: inline-block;
+	margin: 0px;
+	padding: 5px 3px;
+	height: 45px;
+	width: 13%;
+	cursor: pointer;
+	border-radius: 15px ;
+
+}
+.welcome:hover{
+	background:  #00ccff;
+	transition:0.5s;
+}
+.image{
+	left:10px;
+	width: 40px;
+	position: relative;
+}
+
+.phrase{
+	text-decoration: none;
+    color: black;	
+	display: inline-block;
+	top : -15px;
+	left:5px;
+	font-size: 25px;
+	position: relative;
+}
+.image2{
+   top: 8px;
+	width: 20px;
+	position: relative;
+}
+
+.phrase2{
+	text-decoration: none;
+    color: black;	
+	display: inline-block;
+	top : 3px;
+	font-size: 25px;
+	position: relative;
+}
+
+.setting{
+	display: inline-block;
+	float: right;
+	margin: 0px;
+	padding: 5px 3px;
+	height: 45px;
+	border-radius: 15px ;
+	width: 7%;
+	cursor: pointer;
+}
+.setting:hover{
+	background:  #00ccff;
+	transition:0.5s;
+}
+
+.tools{
+	position: relative;
+	width: 98%;
+	padding: 10px 10px;
+	display: block;
+	margin-top : 20px ;
+}
+
+.image3{
+display: inline-block;
+margin: 10px 53px;
+left: -20px;
+width:150px;
+cursor : pointer;
+position: relative;
+}
+
+button { 
+	outline: none;
+	display: block;
+	font-family: roboto;
+	cursor : pointer;
+	position: relative;
+	font-size: 20px;
+    border: 0px;
+    padding: 0px;
+    border-radius: 20px ; 
+    background:  #009999;
+	margin: 30px auto;
+	width: 50%;
+	height : 45px;
+	transition: 0.5s; }
+
+button:hover{
+	background:  #00ccff;
+	transition:0.5s;
+}
+button[id="save"] {width: 20%;
+font-size: 30px;}
+
+.name{
+	background-color:rgba(0,0,0,0.5);
+	width: 100%;
+	height: 40px;
+	display: block;
+	padding-top: 15px;
+	margin-bottom: 30px;
+	color: black;
+	outline: none;
+	font-size: 22px;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+	}
+.tool{
+	outline: none;
+	display: inline-block;
+	cursor : pointer;
+background-color: rgba(0,0,0,0.3);
+	margin: 20px 15px;
+	width: 17%;
+	height: 350px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.deconnexion{
+background-color: #009999;
+	left: 10px;
+	position: relative;
+	margin-bottom: 30px;
+	padding: 8px 3px;
+	border-radius: 15px ; 
+	height: 40px;
+	width: 10%;
+	cursor: pointer;
+	box-shadow: 2px 3px #00ccff;
+}
+.deconnexion:hover{
+	background:  #00ccff;
+	transition:0.5s;
+}
+.phrase4{
+    text-decoration: none;
+    color: black;	
+	font-size: 18px;
+	display: inline-block;
+	left: 4px;
+	top : 7px;
+	position: relative;}
+
+.image4{
+	
+display: inline-block;
+margin: 10px 53px;
+
+	bottom: 20px;
+	left:55px;
+	width: 20px;
+	position: relative;
+}</style>
+	<title></title>
+</head>
+<body>
+<div class="bonde">
+	<div class="welcome">
+	<a class="phrase">hi ! teacher</a>
+<img class="image" src="../image/compte1.png"></div>
+<div class="setting">
+	<a class="phrase2">setting</a>
+<img class="image2" src="../image/setting.png">
+</div>
+</div>
+
+<div class="tools">
+		
+		<div class="tool"><a href="#" class="name">projictor</a>
+		<img class="image3" src="../image/datashow.png">
+	<button type="submit" id="reservation1" onclick="resrv1(0)">reservation</button></div>
+
+		<div class="tool"><a href="#" class="name">multiprise</a>
+			<img class="image3" src="../image/plug.png">
+		<button type="submit" id="reservation2" onclick="resrv2(0)">reservation</button></div>
+
+		<div class="tool"><a href="#" class="name">rj45-cable</a>
+		<img class="image3" src="../image/usb-cable.png">
+	<button type="submit" id="reservation3" onclick="resrv3(0)">reservation</button></div>
+
+		<div class="tool"><a href="#" class="name">router</a>
+		<img class="image3" src="../image/router.png">
+		<button type="submit" id="reservation4" onclick="resrv4(0)">reservation</button></div>
+
+		<div class="tool"><a href="#" class="name">switche</a>
+		<img class="image3" src="../image/switche.png">
+	<button type="submit" id="reservation5" onclick="resrv5(0)">reservation</button></div>
+			
+		
+         <div class="tool"><a href="#" class="name">laboratory</a>
+        <img class="image3" src="../image/laboratory.png"> 
+    <button type="submit" id="reservation6" onclick="resrv6(0)">reservation</button></div>
+
+    <div class="tool"><a href="#" class="name">medecal</a>
+        <img class="image3" src="../image/medecal.png"> 
+    <button type="submit" id="reservation7" onclick="resrv7(0)">reservation</button></div>
+
+		<div class="tool"><a href="#" class="name">skeleton</a>
+        <img class="image3" src="../image/skeleton.png"> 
+    <button type="submit" id="reservation8" onclick="resrv8(0)">reservation</button></div>
+
+		<div class="tool"><a href="#" class="name">Taquimeter</a>
+        <img class="image3" src="../image/Taquimeter.png"> 
+    <button type="submit" id="reservation9" onclick="resrv9(0)">reservation</button></div>
+
+		<div class="tool"><a href="#" class="name">Theodolite</a>
+        <img class="image3" src="../image/Theodolite.png"> 
+    <button type="submit" id="reservation10" onclick="resrv10(0)">reservation</button></div>
+	</div>	
+
+
+<button type="submit" id="save">save</button></div>
+
+<div class="deconnexion">
+ <a class="phrase4">deconnection</a> 
+<img class="image4" src="../image/deconnection.png"></div>
+
+<script type="text/javascript">
+	
+	var y1=0 , y2=0 ,y3=0, y4=0 , y5=0 ,y6=0 , y7=0 ,y8=0, y9=0 , y10=0;
+var reservation1 = document.getElementById('reservation1');
+var reservation2 = document.getElementById('reservation2');
+var reservation3 = document.getElementById('reservation3');
+var reservation4 = document.getElementById('reservation4');
+var reservation5 = document.getElementById('reservation5');
+var reservation6 = document.getElementById('reservation6');
+var reservation7 = document.getElementById('reservation7');
+var reservation8 = document.getElementById('reservation8');
+var reservation9 = document.getElementById('reservation9');
+var reservation10 = document.getElementById('reservation10');
+
+function resrv1(x){
+if (y1==0) {
+	reservation1.style.background  ="#003399";
+	reservation1.innerHTML ="cancel";
+    y1=1; }
+else if (y1==1) {
+	reservation1.style.background = "#009999" ;
+	reservation1.innerHTML ="reservation";
+    y1=0; }
+}
+
+
+function resrv2(x){
+if (y2==0) {
+	reservation2.style.background  ="#003399";
+	reservation2.innerHTML ="cancel";
+    y2=1; }
+else if (y2==1) {
+	reservation2.style.background = "#009999" ;
+	reservation2.innerHTML ="reservation";
+    y2=0; }
+}
+
+
+function resrv3(x){
+if (y3==0) {
+	reservation3.style.background  ="#003399";
+	reservation3.innerHTML ="cancel";
+    y3=1; }
+else if (y3==1) {
+	reservation3.style.background = "#009999" ;
+	reservation3.innerHTML ="reservation";
+    y4=0; }
+}
+
+
+function resrv4(x){
+if (y4==0) {
+	reservation4.style.background  ="#003399";
+	reservation4.innerHTML ="cancel";
+    y4=1; }
+else if (y4==1) {
+	reservation4.style.background = "#009999" ;
+	reservation4.innerHTML ="reservation";
+    y4=0; }
+}
+
+
+function resrv5(x){
+if (y5==0) {
+	reservation5.style.background  ="#003399";
+	reservation5.innerHTML ="cancel";
+    y5=1; }
+else if (y5==1) {
+	reservation5.style.background = "#009999" ;
+	reservation5.innerHTML ="reservation";
+    y5=0; }
+}
+
+
+function resrv6(x){
+if (y6==0) {
+	reservation6.style.background  ="#003399";
+	reservation6.innerHTML ="cancel";
+    y6=1; }
+else if (y6==1) {
+	reservation6.style.background = "#009999" ;
+	reservation6.innerHTML ="reservation";
+    y6=0; }
+}
+function resrv7(x){
+if (y7==0) {
+	reservation7.style.background  ="#003399";
+	reservation7.innerHTML ="cancel";
+    y7=1; }
+else if (y7==1) {
+	reservation7.style.background = "#009999" ;
+	reservation7.innerHTML ="reservation";
+    y7=0; }
+}
+function resrv8(x){
+if (y8==0) {
+	reservation8.style.background  ="#003399";
+	reservation8.innerHTML ="cancel";
+    y8=1; }
+else if (y8==1) {
+	reservation8.style.background = "#009999" ;
+	reservation8.innerHTML ="reservation";
+    y8=0; }
+}
+
+function resrv9(x){
+if (y9==0) {
+	reservation9.style.background  ="#003399";
+	reservation9.innerHTML ="cancel";
+    y9=1; }
+else if (y9==1) {
+	reservation9.style.background = "#009999" ;
+	reservation9.innerHTML ="reservation";
+    y9=0; }
+}
+function resrv10(x){
+if (y10==0) {
+	reservation10.style.background  ="#003399";
+	reservation10.innerHTML ="cancel";
+    y10=1; }
+else if (y10==1) {
+	reservation10.style.background = "#009999" ;
+	reservation10.innerHTML ="reservation";
+    y10=0; }
+}
+</script>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,178 @@
+
+body{
+	background : linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)) , url(../image/matireil.jpg);
+	background-size: cover;
+	background-position : center;
+	height : 70vh;
+}
+
+.bonde{
+	margin-bottom: 15px;
+	position: relative;
+	left :3px;
+	top: 5px;
+	width: 99%;
+	height: 50px;
+	border-radius: 15px;
+	background-color: #009999;
+	box-shadow: 3px 5px #00ccff;
+}
+.welcome{
+	display: inline-block;
+	margin: 0px;
+	padding: 5px 3px;
+	height: 45px;
+	width: 13%;
+	cursor: pointer;
+	border-radius: 15px ;
+
+}
+.welcome:hover{
+	background:  #00ccff;
+	transition:0.5s;
+}
+.image{
+	left:10px;
+	width: 40px;
+	position: relative;
+}
+
+.phrase{
+	text-decoration: none;
+    color: black;	
+	display: inline-block;
+	top : -15px;
+	left:5px;
+	font-size: 25px;
+	position: relative;
+}
+.image2{
+   top: 8px;
+	width: 20px;
+	position: relative;
+}
+
+.phrase2{
+	text-decoration: none;
+    color: black;	
+	display: inline-block;
+	top : 3px;
+	font-size: 25px;
+	position: relative;
+}
+
+.setting{
+	display: inline-block;
+	float: right;
+	margin: 0px;
+	padding: 5px 3px;
+	height: 45px;
+	border-radius: 15px ;
+	width: 7%;
+	cursor: pointer;
+}
+.setting:hover{
+	background:  #00ccff;
+	transition:0.5s;
+}
+
+.tools{
+	position: relative;
+	width: 98%;
+	padding: 10px 10px;
+	display: block;
+	margin-top : 20px ;
+}
+
+.image3{
+display: inline-block;
+margin: 10px 53px;
+left: -20px;
+width:150px;
+cursor : pointer;
+position: relative;
+}
+
+button { 
+	outline: none;
+	display: block;
+	font-family: roboto;
+	cursor : pointer;
+	position: relative;
+	font-size: 20px;
+    border: 0px;
+    padding: 0px;
+    border-radius: 20px ; 
+    background:  #009999;
+	margin: 30px auto;
+	width: 50%;
+	height : 45px;
+	transition: 0.5s; }
+
+button:hover{
+	background:  #00ccff;
+	transition:0.5s;
+}
+button[id="save"] {width: 20%;
+font-size: 30px;}
+
+.name{
+	background-color:rgba(0,0,0,0.5);
+	width: 100%;
+	height: 40px;
+	display: block;
+	padding-top: 15px;
+	margin-bottom: 30px;
+	color: black;
+	outline: none;
+	font-size: 22px;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+	}
+.tool{
+	outline: none;
+	display: inline-block;
+	cursor : pointer;
+background-color: rgba(0,0,0,0.3);
+	margin: 20px 15px;
+	width: 17%;
+	height: 350px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.deconnexion{
+background-color: #009999;
+	left: 10px;
+	position: relative;
+	margin-bottom: 30px;
+	padding: 8px 3px;
+	border-radius: 15px ; 
+	height: 40px;
+	width: 10%;
+	cursor: pointer;
+	box-shadow: 2px 3px #00ccff;
+}
+.deconnexion:hover{
+	background:  #00ccff;
+	transition:0.5s;
+}
+.phrase4{
+    text-decoration: none;
+    color: black;	
+	font-size: 18px;
+	display: inline-block;
+	left: 4px;
+	top : 7px;
+	position: relative;}
+
+.image4{
+	
+display: inline-block;
+margin: 10px 53px;
+
+	bottom: 20px;
+	left:55px;
+	width: 20px;
+	position: relative;
+}
